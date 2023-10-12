@@ -23,6 +23,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="app_gui.py" />
     <Compile Include="ClassArrangement_ForTeachers.py" />
   </ItemGroup>
   <ItemGroup>

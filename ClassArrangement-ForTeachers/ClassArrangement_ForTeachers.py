@@ -1,7 +1,9 @@
 # This project will be annotated due to the fact it is an open source repository
 
+
 #importing necessary modules 
 import pandas as pd
+import app_gui
 
 # variables
 seating_plan = None
@@ -32,7 +34,7 @@ def sort_into_table(name_data, row, column):
             seating_plan.iloc[w, l] = student_placement[i]
             i += 1
 
-init_student_placement()
-init_dataframe()
-sort_into_table(name_data, row, column)
-seating_plan.to_excel('test2.xlsx', sheet_name='Seating Plan')
+#init_student_placement()
+#init_dataframe()
+#sort_into_table(name_data, row, column)
+#seating_plan.to_excel('test2.xlsx', sheet_name='Seating Plan')
